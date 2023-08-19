@@ -12,7 +12,7 @@ class AhadethTab extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Expanded(flex: 3, child: Image.asset("assets/ahadeth_logo.png")),
+        Expanded(flex: 3, child: Image.asset("assets/hadeth_logo.png")),
         SizedBox(
           height: 8,
         ),
