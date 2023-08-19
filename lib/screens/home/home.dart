@@ -36,7 +36,8 @@ class _HomeState extends State<Home> {
       ),
       child: Scaffold(
         appBar: AppBar(
-          elevation: 0,
+          backgroundColor: Colors.transparent,
+          elevation: 0.0,
           centerTitle: true,
           title: Text(AppLocalizations.of(context)!.islami,),
         ),
